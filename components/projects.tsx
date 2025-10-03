@@ -10,103 +10,113 @@ const projects = [
     id: 1,
     title: "Stuggy App - Your study buddy",
     description:
-      "A full-stack e-commerce solution built with Next.js and Stripe integration. Features include user authentication, product management, and secure payments.",
-    detailedDescription: `This comprehensive e-commerce platform was built from the ground up using modern web technologies. The project features a complete user authentication system with secure login/logout functionality, comprehensive product catalog management, and seamless payment processing through Stripe integration.
+      "A mobile study planner app built with React Native using Expo Go and GitHub for collaboration. Developed as a group project, this app is designed to help students improve their study habits and academic performance. ",
+    detailedDescription: `A mobile study planner app built with React Native using Expo Go and GitHub for collaboration. Developed as a group project, this app is designed to help students improve their study habits and academic performance.
 
-Key features include:
-• User registration and authentication with JWT tokens
-• Product catalog with search and filtering capabilities
-• Shopping cart functionality with persistent storage
-• Secure payment processing with Stripe
-• Admin dashboard for product and order management
-• Responsive design optimized for all devices
-• Real-time inventory tracking
-• Email notifications for order confirmations
+Key features:
+• User Login and registration
+• Calender for scheduling study sessions, tracking assignments, or marking an event
+• Progress graphs to visualize scores and track performance
+• Study forum for collaborative discussions and peer support
+• Smart reminders to stay consistent with study plans
+• Pomodoro timer to encourage focus and productivity`,
 
-The backend is built with Node.js and Express, utilizing PostgreSQL for data persistence. The frontend leverages Next.js for server-side rendering and optimal performance, with TypeScript ensuring type safety throughout the application.`,
     image: "/stuggy.png",
-    technologies: ["Next.js", "TypeScript", "Stripe", "PostgreSQL"],
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com/username/project",
+    technologies: ["React Native", "Expo Go", "Github", "Figma"],
+    //liveUrl: "https://example.com",
+    githubUrl: "https://github.com/Ripupz/stuggy_app",
   },
   {
     id: 2,
-    title: "Task Management App",
+    title: "FlowerSnap",
     description:
-      "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
-    detailedDescription: `A sophisticated task management application designed for team collaboration and productivity enhancement. This project demonstrates advanced real-time functionality and intuitive user interface design.
+      "A Machine Learning model that identifies different types of flowers and provides their meanings. By uploading or capturing a photo, the model processes the image, detects the flower type, and displays information about its symbolism. This project showcases the application of image classification in computer vision. ",
+    detailedDescription: `A Machine Learning model that identifies different types of flowers and provides their meanings. By uploading or capturing a photo, the model processes the image, detects the flower type, and displays information about its symbolism. This project showcases the application of image classification in computer vision.
 
-Core functionalities:
-• Real-time collaboration with Socket.io integration
-• Drag-and-drop task organization with smooth animations
-• Team workspace management with role-based permissions
-• Advanced filtering and sorting capabilities
-• Due date tracking with automated reminders
-• File attachment support for tasks
-• Activity timeline and audit logs
-• Mobile-responsive design with offline capability
+Key features:
+• Simple UI 
+• Provide the name and the meaning of a flower
+• Applied iamge classification to the real world context.`,
 
-The application uses React for the frontend with custom hooks for state management, Node.js with Express for the backend API, and MongoDB for flexible data storage. Real-time updates are handled through WebSocket connections, ensuring all team members see changes instantly.`,
-    image: "/task-management-dashboard.png",
-    technologies: ["React", "Node.js", "Socket.io", "MongoDB"],
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com/username/project",
+    image: "/flowerSnap.png",
+    technologies: ["Python", "HTML", "CSS", "JavaScript"],
+    githubUrl: "https://github.com/janicezzzzzz/Machine_Learning",
   },
   {
     id: 3,
     title: "Renfit",
     description:
-      "A responsive weather dashboard that provides detailed forecasts, interactive maps, and location-based weather alerts.",
-    detailedDescription: `An advanced weather dashboard application that provides comprehensive meteorological data through an intuitive and visually appealing interface. This project showcases data visualization skills and API integration expertise.
+      "Most of people need special outfits for events, but buying them can feel wasteful since they are often worn only once. Renting is a smarter choice, but the process is not always easy because people have to look through different places one by one.",
+    detailedDescription: `Most of people need special outfits for events, but buying them can feel wasteful since they are often worn only once. Renting is a smarter choice, but the process is not always easy because people have to look through different places one by one.
 
-Features implemented:
-• Current weather conditions with hourly and 7-day forecasts
-• Interactive weather maps with radar and satellite imagery
-• Location-based weather alerts and severe weather warnings
-• Historical weather data analysis with trend charts
-• Customizable dashboard widgets and layouts
-• Geolocation support for automatic location detection
-• Weather data export functionality
-• Dark/light theme support with smooth transitions
+Renfit is a UI/UX project created to solve this problem. This website also has a Mix & Match feature, which lets users try out different combinations of dresses, shoes, and accessories before choosing what to rent.
 
-Built with Vue.js for reactive user interfaces, Chart.js for data visualization, and integrated with multiple weather APIs for comprehensive data coverage. The application is fully responsive and optimized for performance across all devices.`,
-    image: "/preview/project4.png",
-    technologies: ["Vue.js", "Chart.js", "Weather API", "Tailwind"],
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com/username/project",
+Key features:
+• Rental catalog with clear product presentation
+• Mix & Match tool for outfit styling
+• AI that helps to mix and match
+• Simple yet minimalist web design`,
+
+    image: "/renfit.png",
+    technologies: ["Figma", "HTML", "CSS"],
+    githubUrl: "https://github.com/lenmonade/Renfit-Groups",
   },
   {
     id: 4,
     title: "Urgensia",
     description:
-      "A personal portfolio showcasing projects, skills, and experience with smooth animations and a minimalist design.",
-    detailedDescription: `This project highlights modern frontend development with a focus on responsive layouts, accessibility, and design aesthetics. It includes sections for projects, blog posts, and contact integration with form handling.`,
-    image: "/preview/portfolio.png",
-    technologies: ["Next.js", "Framer Motion", "Tailwind"],
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com/username/project",
+      "A UI/UX project where we built the interface of a mobile application  to help people in critical situations such as earthquakes, natural disasters, or medical emergencies. The app provides an SOS button that instantly connects users with emergency services such as the police, ambulance, or fire department.",
+    detailedDescription: `A UI/UX project where we built the interface of a mobile application  to help people in critical situations such as earthquakes, natural disasters, or medical emergencies. The app provides an SOS button that instantly connects users with emergency services such as the police, ambulance, or fire department. 
+    In addition, the app includes educational resources on first aid, and allows users to submit reports to government services, such as healthcare or disaster response. With location-based assistance, the app ensures that people can quickly ask for help when they are in danger or unsafe conditions.
+
+    Key features:
+    • There are 4 main emergency buttons on the home screen.
+    • User can make a report to government services.
+    • User can keep track of their reports.
+    • Educational resources on first aid for various condition. 
+
+    `,
+    image: "/urgensia.png",
+    technologies: ["Figma"],
+    githubUrl: "https://www.figma.com/design/aNrrHLvXLoteMa1C3Gm3TV/UXVIDIA?node-id=0-1&t=YpZORdMdUyDbO74p-1",
   },
   {
     id: 5,
     title: "Saferime",
     description:
-      "A real-time chat application with private messaging, typing indicators, and read receipts.",
-    detailedDescription: `This chat app was built using WebSocket technology for instant communication. It supports group chats, emoji reactions, media sharing, and persistent chat history stored in the cloud.`,
-    image: "/preview/chat-app.png",
-    technologies: ["React", "Firebase", "Tailwind"],
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com/username/project",
+      "A UI/UX project of a safety app, where the app is helping users to stay aware and protected in their daily lives. The app features a map-based system where users can see which areas are reported as unsafe, such as places with frequent thefts, harassment, or catcalling. This allows users to be more cautious or even avoid risky routes.",
+    detailedDescription: `A UI/UX project of a safety app, where the app is helping users to stay aware and protected in their daily lives. The app features a map-based system where users can see which areas are reported as unsafe, such as places with frequent thefts, harassment, or catcalling. This allows users to be more cautious or even avoid risky routes.
+   Not only map, the app provides self defense education, a companion mode that simulates a call to make users feel safer, and detailed incident reporting where users can specify different types of safety concerns. It also includes tips and tricks for personal safety, making it a practical tool for everyday use.
+
+    Key features:
+    • Map-based safety alerts
+    • Self-defense education resources
+    • Safety tips and tricks
+    • AI Companion model 
+    • Call a friend
+    `,
+    image: "/saferime.png",
+    technologies: ["Figma"],
+    githubUrl: "https://www.figma.com/design/2pZjx113fVy4wmYNJ6EfG5/AplikasiSaferime?node-id=0-1&t=LMh0438s1ATKekJM-1",
   },
   {
     id: 6,
     title: "Nukaran",
     description:
-      "An app to track income, expenses, and budgets with data visualization and export options.",
-    detailedDescription: `The finance tracker allows users to log transactions and visualize financial health through charts and summaries. It supports CSV export, recurring transactions, and budgeting goals.`,
-    image: "/preview/finance.png",
-    technologies: ["Vue.js", "D3.js", "Node.js", "MongoDB"],
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com/username/project",
+      "A mobile application designed for exchanging secondhand items that are still in good condition. For example, users can trade books, novels, clothes, or other items they no longer use. The app provides a forum where people can post what they’re looking for or what they want to offer, making it easy to find exchange partners.",
+    detailedDescription: `A mobile application designed for exchanging secondhand items that are still in good condition. For example, users can trade books, novels, clothes, or other items they no longer use. The app provides a forum where people can post what they’re looking for or what they want to offer, making it easy to find exchange partners.
+    Users can also view profiles to see what items others own and connect with them to arrange trades. Beyond exchanging, the app also includes a donation feature, where users can donate items directly to orphanages or other organizations.
+
+    Key features:
+    • Exchange secondhand items 
+    • Track your exchanges
+    • Donation feature to support the community
+    • Simple and user-friendly design
+
+    `,
+    image: "/nukaran.png",
+    technologies: ["Figma"],
+    githubUrl: "https://www.figma.com/design/4bRtCajkSmqDbsfaEnCysa/UI-UX-Fortex-SnapUI?node-id=52-3&t=DShq0Jb2ImeU6nkR-1",
   },
   {
     id: 7,
@@ -118,9 +128,8 @@ Built with Vue.js for reactive user interfaces, Chart.js for data visualization,
     This is the project from the 2nd semesterof my college. The project is to create a website for a fictional company called VKellogs, which is a cereal company that sells healthy and delicious cereals. The website is designed to be user-friendly and easy to navigate, with a focus on the products and their benefits.
 
     From this project, I learned a lot about creating effective UI/UX designs. I also experienced the challenges of designing a website from scratch, and these challenges became valuable lessons to improve my skills for the future.`,
-    image: "/preview/fitness.png",
+    image: "/vkellogs.png",
     technologies: ["HTML", "CSS", "JavaScript"],
-    liveUrl: "https://example.com",
     githubUrl: "https://github.com/username/project",
   },
 

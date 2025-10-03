@@ -50,7 +50,7 @@ export function Hero() {
             </span>
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 text-balance leading-relaxed">
-            An AI and Data Science enthusiast who loves exploring and learning new things.
+            An AI and Data Science enthusiast and an avid learner.
           </p>
         </div>
 

@@ -27,40 +27,48 @@ const skillCategories = [
 
       {
         name: "Python",
-        description: "optimized routing and middleware, reducing API latency by 40%.",
+        description: "Practiced data cleaning and preprocessing using pandas and NumPy, as well as building and evaluating models with scikit-learn. Skilled in creating data visualizations with matplotlib to explore and present data insights. Completed projects involving regression analysis and interpreting data distributions.",
       },
       {
         name: "SQL",
-        description: "designed efficient NoSQL schemas for dynamic user data and fast queries.",
+        description: "Used SQL to query, organize, and combine data , currently developing my knowledge in database management and optimization.",
+      },
+      {
+        name: "Microsoft Excel",
+        description: "Used Microsoft Excel for my personal projects such as itineraries, scheduling, or my personal data logs. It helps me a lot to organize data and perform basic analysis.",
       },
       {
         name: "C",
-        description: "designed efficient NoSQL schemas for dynamic user data and fast queries.",
+        description: "Practiced Algorithm & Programming and Data Structures with this language.",
       },
       {
         name: "Java",
-        description: "designed efficient NoSQL schemas for dynamic user data and fast queries.",
+        description: "Practiced OOP principles and apply it to the real problems and project.",
       },  
       {
         name: "Node.js",
-        description: "Familiar with Node.js and currently developing foundational skills in backend development.",
+        description: "Slightly familiar and still exploring about Node.js .",
       },
     ],
   },
   {
-    title: "Tools & Workflow",
+    title: "Tools & Others",
     skills: [
       {
         name: "Git & GitHub",
-        description: "managed version control and collaborative branching in team projects.",
+        description: "Collaborated with team members using branches in group projects to maanage the version control and published final outputs through GitHub.",
       },
       {
         name: "Figma",
-        description: "managed version control and collaborative branching in team projects.",
+        description: "Designed both low-fidelity and high-fidelity prototypes to visualize and refine project ideas.",
       },
       {
         name: "Agile/Scrum",
-        description: "delivered features on schedule through sprint-based workflows.",
+        description: "Applied Agile/Scrum methods in project development.",
+      },
+            {
+        name: "Google Workspace",
+        description: "Used Google Workspace for collaboration, documentation, and project management with the team.",
       },
     ],
   },
