@@ -50,8 +50,8 @@ This role has strengthened my communication, teamwork, networking, and public sp
     location: "Alam Sutera, Tangerang",
     period: "Aug 2025 - Aug 2025 ",
     description:
-      "Roled as aLiaison Officer, I guided all of the participants and VIP guests to ensure they came the right seminar rooms, presentation halls, and break areas. I collaborated closely with other coordinators to provide updates on event developments, such as schedule changes, to avoid miscommunication, and ensured that all participant's and guest's needs were fullfiled throughout the event.",
-    detailedDescription: ` Roled as aLiaison Officer, I guided all of the participants and VIP guests to ensure they came the right seminar rooms, presentation halls, and break areas. I collaborated closely with other coordinators to provide updates on event developments, such as schedule changes, to avoid miscommunication, and ensured that all participant's and guest's needs were fullfiled throughout the event.
+      "Roled as a Liaison Officer, I guided all of the participants and VIP guests to ensure they came the right seminar rooms, presentation halls, and break areas. I collaborated closely with other coordinators to provide updates on event developments, such as schedule changes, to avoid miscommunication, and ensured that all participant's and guest's needs were fullfiled throughout the event.",
+    detailedDescription: ` Roled as a Liaison Officer, I guided all of the participants and VIP guests to ensure they came the right seminar rooms, presentation halls, and break areas. I collaborated closely with other coordinators to provide updates on event developments, such as schedule changes, to avoid miscommunication, and ensured that all participant's and guest's needs were fullfiled throughout the event.
 
 Responsibilities:
 • Guided participants and VIP guests to the correct seminar rooms, presentation halls, and break areas

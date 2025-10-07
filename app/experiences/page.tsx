@@ -77,7 +77,7 @@ const volunteerExperiences = [
     period: "Aug 2025",
     location: "Tangerang",
     description:
-      "Roled as aLiaison Officer, I guided all of the participants and VIP guests to ensure they came the right seminar rooms, presentation halls, and break areas. I collaborated closely with other coordinators to provide updates on event developments, such as schedule changes, to avoid miscommunication, and ensured that all participant's and guest's needs were fullfiled throughout the event..",
+      "Roled as a Liaison Officer, I guided all of the participants and VIP guests to ensure they came the right seminar rooms, presentation halls, and break areas. I collaborated closely with other coordinators to provide updates on event developments, such as schedule changes, to avoid miscommunication, and ensured that all participant's and guest's needs were fullfiled throughout the event..",
     achievements: ["Guided participants and VIP guests to the correct seminar rooms, presentation halls, and break areas",
        " Collaborated closely with the coordinators", 
        "Provided updates on event developments, including schedule changes, to prevent miscommunication",

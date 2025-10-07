@@ -48,9 +48,13 @@ export function Navigation() {
             >
               Experience
             </button>
-            <Link href="/projects" className="text-muted-foreground hover:text-foreground transition-colors">
+            <button
+              onClick={() => scrollToSection("projects")}
+              className="text-muted-foreground hover:text-foreground transition-colors"
+            >
               Projects
-            </Link>
+            </button>
+           
 
           </div>
 
