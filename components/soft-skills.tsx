@@ -11,10 +11,22 @@ const softSkills = [
     name: "Communication",
     description: "Adept at adapting communication styles across various settings, from engaging large groups during presentations to providing one-on-one guidance and ensuring smooth coordination in team projects..",
   },
-    {
-      name: "Adaptability",
-      description: "adapted easily in every conditions.",
-    },
+  {
+     name: "Adaptability",
+     description: "adapted easily in every conditions.",
+  },
+  {
+     name: "Time Management",
+     description: "managing my time to balance my college assignments, organization activities, and personal projects.",
+  },
+  {
+     name: "Leadership",
+     description: "Lead a team to achieve a goal in a activity or project and also a group of freshmen during their first year program activities",
+  },
+  {
+     name: "Teamwork",
+     description: "worked well in a team to complete my college assignments, organization and other activities.",
+  },
 ]
 
 export function SoftSkills() {
