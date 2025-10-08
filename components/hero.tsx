@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import { Button } from "@/components/ui/button"
-import { ArrowDown, Github, Linkedin, Mail, X } from "lucide-react"
+import { ArrowDown, Github, Linkedin, Mail,FileText, X } from "lucide-react"
 import { Contact } from "./contact"
 
 
@@ -39,6 +39,17 @@ export function Hero() {
     }
   }
 
+  const handleViewCV = () => {
+    // - Open CV in a new tab
+    window.open("/CV_KeishaAudreyChayadi.pdf", "_blank")
+    
+    // - Download CV directly
+    // const link = document.createElement("a")
+    // link.href = "/path/to/your/cv.pdf"
+    // link.download = "Keisha_Audrey_CV.pdf"
+    // link.click()
+  }
+
   return (
     <section className="min-h-screen flex items-center justify-center px-6 pt-20">
       <div className="max-w-4xl mx-auto text-center">
@@ -56,6 +67,15 @@ export function Hero() {
 
         {/* Buttons */}
         <div className="flex items-center justify-center gap-4 mb-12">
+          <Button
+            variant="default"
+            size="lg"
+            onClick={handleViewCV}
+            className="gap-2"
+          >
+            <FileText className="h-5 w-5" />
+            View CV
+          </Button>
 
           <Button
             variant="outline"

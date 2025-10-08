@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button"
 import { ArrowLeft, Calendar, MapPin } from "lucide-react"
 import Link from "next/link"
 
+
 const organizationalExperiences = [
   {
     id: 1,
@@ -19,6 +20,7 @@ const organizationalExperiences = [
       "Providing assistance and mentorship to help freshmen adapting during their first year",
       "Providing some mentoring activities for freshmen during their first year (2 semesters)",
     ],
+    skills: ["Time management", "Mentoring", "Leadership", "Public Speaking"],
   },
   {
     id: 2,
@@ -34,6 +36,7 @@ const organizationalExperiences = [
       "Guiding and Assisting Freshmen during the program",
       "Together with 6 other partners, managing a class of freshmen consisting of 53 students",
     ],
+    skills: ["Communication", "Time Management","Mentoring", "Public Speaking", "Teamwork"],
   },
   {
     id: 3,
@@ -50,6 +53,7 @@ const organizationalExperiences = [
       "Sold some of the Binus University registration forms",
       
     ],
+    skills: ["Communication", "Marketing", "Social Media Management"],
   },
   {
     id: 4,
@@ -66,6 +70,7 @@ const organizationalExperiences = [
       
       
     ],
+    skills: ["Communication", "Marketing", "Social Media Management"],
   },
 ]
 
@@ -82,6 +87,7 @@ const volunteerExperiences = [
        " Collaborated closely with the coordinators", 
        "Provided updates on event developments, including schedule changes, to prevent miscommunication",
       "Ensured all participant's and guest's needs were fulfilled throughout the event"],
+    skills: ["Teamwork", "Public Speaking"],
   },
   {
     id: 6,
@@ -96,6 +102,7 @@ const volunteerExperiences = [
       "watered the plants every morning and evening",
       "Made the report about the condition of the seedlings for a week",
     ],
+    skills: ["Environmental Awareness", "Responsibility", "Teamwork"],
   },
 ]
 
@@ -115,7 +122,7 @@ export default function ExperiencesPage() {
             </Link>
             <h1 className="text-4xl md:text-5xl font-bold text-primary mb-4">My Experiences</h1>
             <p className="text-lg text-muted-foreground">
-              A comprehensive overview of my organizational and volunteer experiences.
+              
             </p>
           </div>
 
@@ -157,6 +164,21 @@ export default function ExperiencesPage() {
                         ))}
                       </ul>
                     </div>
+
+                    {exp.skills && exp.skills.length > 0 && (
+                      <div className="mt-4 flex flex-wrap gap-2">
+                        {exp.skills.map((skill, index) => (
+                          <span
+                            key={index}
+                            className="px-3 py-1 bg-secondary/20 dark:bg-secondary/20 text-secondary text-sm rounded-full"
+                          >
+                            {skill}
+                          </span>
+                        ))}
+                      </div>
+                    )}
+
+
                   </CardContent>
                 </Card>
               ))}
@@ -201,11 +223,29 @@ export default function ExperiencesPage() {
                         ))}
                       </ul>
                     </div>
+                   
+                            
+                    {exp.skills && exp.skills.length > 0 && (
+                      <div className="mt-4 flex flex-wrap gap-2">
+                        {exp.skills.map((skill, index) => (
+                          <span
+                            key={index}
+                            className="px-3 py-1 bg-secondary/20 dark:bg-secondary/20 text-secondary text-sm rounded-full"
+                          >
+                            {skill}
+                          </span>
+                        ))}
+                      </div>
+                    )}
+
+
+                    
                   </CardContent>
                 </Card>
               ))}
             </div>
           </section>
+          
         </div>
       </main>
     </div>
