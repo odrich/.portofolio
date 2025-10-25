@@ -41,7 +41,7 @@ export function Hero() {
 
   const handleViewCV = () => {
     // - Open CV in a new tab
-    window.open("/CV_KeishaAudreyChayadi.pdf", "_blank")
+    window.open("/CV - KEISHA AUDREY CHAYADI.pdf", "_blank")
     
     // - Download CV directly
     // const link = document.createElement("a")

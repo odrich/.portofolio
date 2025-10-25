@@ -4,6 +4,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { ExternalLink, Folder, Info } from "lucide-react"
 import { useState, useRef, useEffect } from "react"
+import{flowerSnap} from "@/public/flowerSnap.png"
 
 const projects = [
   {
